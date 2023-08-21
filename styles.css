@@ -71,12 +71,6 @@ li {
   transition: border-color 0.3s, color 0.3s;
 }
 
-li:hover {
-  border-bottom-color: #666;
-  color: gray;
-  text-decoration: line-through;
-}
-
 .delete-button {
   background-color: #d64029;
   color: #fff;
@@ -96,4 +90,15 @@ li:hover {
 
 .delete-button:hover {
   background-color: #b03223;
+}
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #0089a8;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+ 
 }
